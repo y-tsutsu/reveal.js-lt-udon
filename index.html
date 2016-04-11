@@ -1,0 +1,240 @@
+
+<!doctype html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!--
+		<script src="https://s3.amazonaws.com/remoats/scripts/github/remotes.ne.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+		    new Remotes("preview")
+		    .on("swipe-left", function(e){
+					Reveal.navigateRight();
+		         })
+			.on("swipe-right", function(e){
+					Reveal.navigateLeft();
+		         })
+			.on("swipe-up", function(e){
+					Reveal.navigateDown();
+		         })
+			.on("swipe-down", function(e){
+					Reveal.navigateUp();
+		         })
+			.on("tap", function(e){
+		            /* and the screen explodes */
+		         })
+			.on("hold", function(e){
+		            /* hold on */
+		         })
+			.on("release", function(e){
+		            /* hands off */
+		         });
+		</script>
+		-->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-markdown
+				    data-separator="\n---\n$"
+				    data-vertical="\n--\n">
+				    <script type="text/template">
+
+## おすすめ うどん
+　
+### by tsutsu
+
+---
+
+## まずはこれを見ろ！
+　
+### 映画 UDON
+
+[http://moviedougakan.blog.fc2.com/blog-entry-155.html](http://moviedougakan.blog.fc2.com/blog-entry-155.html)
+
+---
+
+### うどんのいろはが分かったら．．．
+
+---
+
+## おすすめうどん店
+
+---
+
+## 山越うどん
+　
+
+### かまたま
+[http://yamagoeudon.com](http://yamagoeudon.com)
+
+--
+
+
+### おすすめポイント
+　
+
+* 日本一うまい かまたま（orかまたまやま）を食え
+* 観光客向けに食べる場所（庭）がきれいになっていい感じ
+* 駐車場も広い
+* 並ぶけど回転は早いはず
+
+---
+
+## 山内うどん
+　
+### かけ（あつあつorひやあつ）
+
+[http://www.jalan.net/gourmet/grm_alikejpA000112077/](http://www.jalan.net/gourmet/grm_alikejpA000112077/)
+
+--
+
+### おすすめポイント
+　
+
+* まきで湯を沸かしててそれっぽい
+* ご当地感というか隠れ家感がぱねぇ（地味．．．）
+* 閉まるの早い気がする（土日は休みかも）
+* ナビで行かないと絶対店見つからない
+
+---
+
+## はりや
+　
+### いか天ざるうどん
+
+[http://tabelog.com/kagawa/A3701/A370101/37000049/](http://tabelog.com/kagawa/A3701/A370101/37000049/)
+
+--
+
+### おすすめポイント
+　
+
+* ざるはここが一番好き
+* ここもまぁまず並ぶ
+* ここも時間は要注意．早い気がする
+* １，２回しか行ったことない．．．
+
+---
+
+## わら家
+　
+### 釜あげ
+
+[https://www.wara-ya.co.jp](https://www.wara-ya.co.jp)
+
+--
+
+### おすすめポイント
+　
+
+* お店が茅葺き屋根で観光向け
+* 家族向けのでかいうどんが有名
+* ヤシマ作戦の屋島にある
+* 営業時間は長いっぽい
+* 近くの四国村に行ってもいいかも
+
+---
+
+## まとめ
+　
+
+とりあえず山越は一番おすすめ
+　
+
+わら家は観光的におすすめ
+　
+
+山内は昔ながらな感じで，ネタ的にもいいかも
+　
+
+はりやも地元に人気
+　
+
+山越と山内は映画 UDONにもでてる
+
+---
+
+## Thank U for Reading
+　
+### by tsutsu
+
+				    </script>
+				</sectin>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
